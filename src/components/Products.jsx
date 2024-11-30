@@ -5,7 +5,7 @@ import imgThree from "../assets/images/Rectangle 6.png";
 
 const Products = () => {
   return (
-    <section className="w-full min-w-full grid grid-cols-[repeat(auto-fill,minmax(320px,1fr))]">
+    <section className="w-full min-w-full mx-auto grid grid-cols-[repeat(auto-fill,minmax(320px,1fr))] md:grid-cols-[repeat(auto-fill,minmax(400px,1fr))]">
       <Product src={imgOne} title={"skin products"} />
       <Product src={imgTwo} title={"hair products"} />
       <Product src={imgThree} title={"lipsticks and gloss"} />
